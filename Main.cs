@@ -1,0 +1,9 @@
+using System;
+using System.IO;
+using System.Threading.Tasks;
+using Azure;
+using Azure.AI.FormRecognizer.DocumentAnalysis;
+using System.Text.Json;
+using System.Linq;
+using PdfSharp.Pdf;
+using PdfSharp.Drawing;
