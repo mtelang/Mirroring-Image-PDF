@@ -7,3 +7,13 @@ using System.Text.Json;
 using System.Linq;
 using PdfSharp.Pdf;
 using PdfSharp.Drawing;
+from azure.identity import DefaultAzureCredential
+from azure.keyvault.secrets import SecretClient
+
+namespace FormRecognizerLayoutDemo{
+    class PDFMirroring{
+        static async Task Main(string[] args){
+            
+        }
+    }
+}
